@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>base要素の例</title>
+    <base href="http://www.example.org/deep/">
+  </head>
+  <body>
+    <p><a href="some-file.html">関連リンク</a></p>
+    <!-- 上記のリンクを解決すると下記のようになります -->
+    <p><a href="http://www.example.org/deep/some-file.html">関連リンク</a></p>
+  </body>
+</html>
